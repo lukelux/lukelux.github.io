@@ -2,16 +2,51 @@
 layout: default
 ---
 <main class="shelf">
-  {% for book in site.data.books  %}
-  <article class="book">
-    <figure class="book-cover">
-      <a href="{{ book.link }}">
-        <img src="./images/{{ book.image }}" alt="{{ book.title }}">
+  {% for seo in site.data.seo  %}
+  <article class="media">
+    <figure class="img-cover">
+      <a href="{{ seo.link }}">
+        <img src="./images/{{ seo.image }}" alt="{{ seo.title }}">
       </a>
     </figure>
-    <div class="book-info">
-      <h2>{{ book.title }}</h2>
-      <p>{{ book.author }}</p>
+    <div class="img-info">
+      <h2>{{ seo.title }}</h2>
+    </div>
+  </article>
+  {% endfor %}
+  {% for growthmarketing in site.data.growthmarketing  %}
+  <article class="media">
+    <figure class="img-cover">
+      <a href="{{ growthmarketing.link }}">
+        <img src="./images/{{ growthmarketing.image }}" alt="{{ growthmarketing.title }}">
+      </a>
+    </figure>
+    <div class="img-info">
+      <h2>{{ growthmarketing.title }}</h2>
+    </div>
+  </article>
+  {% endfor %}
+  {% for analytics in site.data.analytics  %}
+  <article class="media">
+    <figure class="img-cover">
+      <a href="{{ analytics.link }}">
+        <img src="./images/{{ analytics.image }}" alt="{{ analytics.title }}">
+      </a>
+    </figure>
+    <div class="img-info">
+      <h2>{{ analytics.title }}</h2>
+    </div>
+  </article>
+  {% endfor %}
+  {% for default in site.data.default  %}
+  <article class="media">
+    <figure class="img-cover">
+      <a href="{{ default.link }}">
+        <img src="./images/{{ default.image }}" alt="{{ default.title }}">
+      </a>
+    </figure>
+    <div class="img-info">
+      <h2>{{ default.title }}</h2>
     </div>
   </article>
   {% endfor %}
