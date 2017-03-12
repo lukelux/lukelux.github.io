@@ -1,3 +1,22 @@
+# Jekyll #
 _site/
 .sass-cache/
 .jekyll-metadata
+node_modules
+bower_components
+Gemfile.lock
+
+# Logs and databases #
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
