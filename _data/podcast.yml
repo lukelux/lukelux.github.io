@@ -1,3 +1,4 @@
 - title: Test 01
-  audio_wemb: podcast/test01/01.wemb
-  audio_mp3: podcast/test01/01.mp3
+  file_wemb: https://i.lucasdicarlo.com/podcast/test01/01.wemb
+  file_mp3: https://i.lucasdicarlo.com/podcast/test01/01.mp3
+  img: https://i.lucasdicarlo.com/podcast/test01/test01.png
