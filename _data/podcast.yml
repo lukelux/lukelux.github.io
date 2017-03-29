@@ -1,4 +1,5 @@
 - title: Test 01
-  file: test01/01
+  file: 01
   howl: null
-  img: test01/test01.png
+  img: test01.png
+  folder: test01
