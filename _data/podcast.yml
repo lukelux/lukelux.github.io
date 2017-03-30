@@ -1,5 +1,4 @@
-- title: Test 01
-  file: audio1
+- title: Audio Test
+  file: audio_test/audio1
+  img: audio_test/test01.png
   howl: null
-  img: test01.png
-  folder: test01
