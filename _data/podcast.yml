@@ -1,4 +1,11 @@
 - title: Audio Test
-  file: audio_test/track2
-  img: audio_test/test01.png
+  file: track2
+  img: test01.png
   howl: null
+  folder: audio_test
+  
+- title: Audio Test Two
+  file: track2
+  img: test01.png
+  howl: null
+  folder: audio_test
