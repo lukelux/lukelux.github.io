@@ -9,3 +9,9 @@
   file: test_two
   img: pic.png
   howl: null
+  
+- folder: seo_with_mark_Thoma
+  title: Seo With Mark Thoma
+  file: seo_with_mark_thoma
+  img: surf.png
+  howl: null
