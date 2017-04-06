@@ -3,9 +3,9 @@ title: Library
 description: >
   Library Image Archive
 baseurl: ""
-url: "https://i.lucasdicarlo.com/"
+url: "https://i.lucasdicarlo.com"
 enforce_ssl: i.lucasdicarlo.com
-production_url: "https://i.lucasdicarlo.com/"
+production_url: "https://i.lucasdicarlo.com"
 # Collections
 #collections:
 #  books:
