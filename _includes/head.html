@@ -1,7 +1,7 @@
 <head>
-  <meta name="robots" content="noindex, nofollow">
+  <meta name="robots" content="noindex, follow">
   <script type="text/javascript">
-    var host = "yoursite.com";
+    var host = "i.lucasdicarlo.com";
     if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
   </script>
@@ -13,5 +13,5 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "//i.lucasdicarlo.com/css/main.css"}}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="https://lucasdicarlo.com/" />
 </head>

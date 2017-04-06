@@ -1,4 +1,4 @@
 ---
-layout: none
+sitemap: false
 ---
 {{ site.data.podcast | jsonify }}
