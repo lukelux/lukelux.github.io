@@ -1,7 +1,7 @@
 # Site settings
 title: Library
 description: >
-  Library Image Archive
+  Library & Image Archive
 baseurl: ""
 url: "https://i.lucasdicarlo.com"
 enforce_ssl: i.lucasdicarlo.com
